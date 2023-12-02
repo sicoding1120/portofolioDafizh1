@@ -1,0 +1,269 @@
+@media screen and (max-width: 1065px) {
+    .header {
+      width: 100%;
+    }
+    .gabungan-satu {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .pembuka-topic {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .card-skill {
+      flex-wrap: wrap;
+    }
+  
+    .nama-judul {
+      font-size: 60px;
+    }
+  
+    .card {
+      width: 40%;
+    }
+  
+    .proses-bar {
+      gap: 10px;
+    }
+  
+    .komentar {
+      width: 90%;
+    }
+  
+    .text-area {
+      width: 65%;
+    }
+  
+    .text-area>textarea {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 390px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+      height: 20px;
+    }
+  
+    .nama-judul {
+      font-size: 30px;
+    }
+    .navbar {
+      flex-wrap: wrap;
+      margin-inline: auto;
+      opacity: 0;
+      transition: 0.3s ease;
+      background-color: var(--second-bg-color);
+      transform: translateY(-30px);
+    }
+  .navbar > a {
+    font-size: 20px;
+  }
+    .navbar.active {
+      opacity: 1;
+      transform: translateY(0px);
+      transition: 0.3s ease;
+    }
+  
+    .icon-menu>i {
+      opacity: 1;
+    }
+  
+    .icon-menu:hover {
+      transition: 0.3s ease;
+      transform: scale(1.2);
+    }
+  
+    .gabungan-satu {
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 20px;
+    }
+  
+    .pembuka-topic {
+      width: 100%;
+    }
+  
+    .pembuka-topic>h2 {
+      font-size: 20px;
+    }
+  
+    .pembuka-topic>h5 {
+      font-size: 30px;
+    }
+  
+    .gambar>img {
+      width: 200px;
+      height: 200px;
+    }
+  .card2 {
+    padding: 20px;
+    width: 80%;
+  }
+    .skill {
+      padding-inline: 10px;
+    }
+  
+    .proses-bar {
+      gap: 5px;
+    }
+  
+    .my-hobby {
+      padding-inline: 10px;
+    }
+  
+    .text-peta {
+      margin-right: 20px;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .header {
+      flex-direction: column;
+      /* gap: 10px; */
+      height: 30px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      margin-inline: auto;
+      gap: 30px;
+      opacity: 0;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      padding-block: 20px;
+      transition: 0.3s ease;
+      z-index: 100;
+      background-color: var(--second-bg-color);
+    }
+  
+    .navbar.active {
+      opacity: 1;
+      transition: 0.3s ease;
+    }
+  
+    .icon-menu>i {
+      opacity: 1;
+      font-size: 40px;
+    }
+  
+    .gabungan-satu {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .pembuka-topic {
+      width: 100%;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  
+    .proses-bar {
+      flex-wrap: wrap;
+      gap: 30xpx;
+    }
+  
+    .card2 {
+      width: 40%;
+    }
+  
+    .proses-on {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .alamat-lengkap {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .peta {
+      width: 84%;
+    }
+  
+    .komentar {
+      width: 80%;
+    }
+  
+    .komentar>input {
+      width: 100%;
+      font-size: 20px;
+    }
+  
+    .text-area {
+      width: 100%;
+    }
+  
+    /* .text-area>textarea {}*/
+  
+  }
+  
+  @media (max-width: 450px) {
+    .navbar > a {
+      font-size: 20px;
+    }
+    .pembuka-topic h2,
+    h2>span {
+      font-size: 20px;
+    }
+  
+    .nama-judul {
+      font-size: 35px;
+    }
+  
+    .gambar>img {
+      width: 250px;
+      height: 250px;
+    }
+  
+    .card2 {
+      width: 80%;
+    }
+  
+    .peta {
+      transform: translateX(-25px);
+      width: 85%;
+    }
+  
+  }
+  
+  @media (max-width: 900px) {
+    .header {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .alamat-lengkap {
+      flex-direction: column;
+    }
+  
+    .card2 {
+      width: 60%;
+    }
+  
+    .peta {
+      width: 83%;
+    }
+  
+    .komentar {
+      width: 100%;
+    }
+  
+    /* .komentar > input {
+      /* width: 35%; */
+  
+  
+    .text-area {
+      width: 93%;
+    }
+  }
